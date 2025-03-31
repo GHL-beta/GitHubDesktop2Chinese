@@ -3,9 +3,7 @@
 name: CMake Build GitHubDesktop2Chinese
 
 on:
-  push:
-    tags:
-      - '*'
+  workflow_dispatch:
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
